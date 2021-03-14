@@ -17,16 +17,16 @@ let x: i16 = x.trim().parse().expect("");
 let y: i16 = y.trim().parse().expect("");
 
 if x > 0 && y > 0 {
-    println!("1");
+    println!("Quadrant 1");
 }
 else if x < 0 && y > 0{
-    println!("2");
+    println!("Quadrant 2");
 }
 else if x < 0 && y < 0{
-    println!("3");
+    println!("Quadrant 3");
 }
 else {
-    println!("4");
+    println!("Quadrant 4");
 }
 
 }
