@@ -1,5 +1,5 @@
 use std::io;
-
+//This was used to place a set of cooardinates on a graph.
 
 fn main() {
     let mut x = String::new();
